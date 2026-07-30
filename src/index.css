@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink-900 text-white font-body antialiased;
+}
+
+::selection {
+  background: #c9a876;
+  color: #05070d;
+}
+
+.container-page {
+  @apply mx-auto w-full max-w-[1512px] px-6 sm:px-8 lg:px-10;
+}
+
+.font-display-fallback {
+  font-family: "Archivo Black", "Arial Black", sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
