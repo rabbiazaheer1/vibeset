@@ -25,15 +25,7 @@ Build: `npm run build` — Preview build: `npm run preview`
 (continuum, lynxup, dealjin, autodeal, leadhunt), `/ai-consulting`, `/about`,
 `/contact`, `*` → 404.
 
-## Notes on scope
-The 11 screenshots provided cover the Home page (hero through footer) and the
-Labs page (hero + product list). Those sections are built to match the
-screenshots exactly — spacing, copy, layout, and colors are taken directly
-from them. Services, About, Contact, AI Consulting, and the individual detail
-pages were not captured in any screenshot, so they are built using the same
-design system (same navbar/footer, type scale, color tokens, card and button
-components) rather than invented from scratch — swap in real copy/screens for
-those any time and the components will take it as-is.
+
 
 Company client logos (Columbia Property Management, Phone Depot, Muskoka
 Group, Sparkling, Majestic Perfumes, Jaff Technologies) are rendered as
